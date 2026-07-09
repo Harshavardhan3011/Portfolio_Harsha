@@ -1,0 +1,136 @@
+// src/data/projects.js
+import hrms1 from "../assets/HRMS1.jpg";
+import hrms2 from "../assets/HRMS2.jpg";
+import hrms3 from "../assets/HRMS3.jpg";
+import hrms4 from "../assets/HRMS4.jpg";
+import hrms5 from "../assets/HRMS5.jpg";
+import hrms6 from "../assets/HRMS6.jpg";
+import hrms7 from "../assets/HRMS7.jpg";
+import portfolioImg from "../assets/portfolioimg.png";
+import group1 from "../pages/group1.png";
+import group2 from "../pages/group2.png";
+import todo1 from "../layout/Layout-cards/Images/Todo1.png";
+import todo2 from "../layout/Layout-cards/Images/Todo2.png";
+
+export const projects = [
+  {
+    slug: "3d-portfolio",
+    title: "3D Gamer × Developer Portfolio",
+    shortDesc: "Premium 3D animated portfolio with gamer identity, skill matrix, gaming arena, and hologram design.",
+    desc: "A premium 3D animated gamer × developer portfolio website combining developer identity, gamer personality, anime-inspired visuals, interactive skill matrix, project missions, resume scanner, and gaming arena.",
+    features: [
+      "Cinematic 3D hero with profile hologram",
+      "Interactive Skill Matrix with orb nodes",
+      "Gaming Arena with Free Fire MP4 clips",
+      "Project Missions with modal details",
+      "Resume Scanner with education timeline",
+      "Contact Terminal with command-style UX",
+      "Real Zoro / Anime GIF asset integration",
+      "Responsive PC + Mobile UI",
+    ],
+    tech: ["React", "Vite", "Tailwind CSS", "Three.js", "React Three Fiber", "Drei", "Framer Motion", "GSAP"],
+    images: [portfolioImg],
+    link: "https://portfolio-beta-livid-zahsjif86i.vercel.app/",
+    github: null,
+    year: 2025,
+    type: "3D Portfolio",
+    status: "Latest",
+    featured: true,
+    emoji: "🌐",
+    accentColor: "#00ff88",
+  },
+  {
+    slug: "hrms",
+    title: "HRMS — Human Resource Management System",
+    shortDesc: "Full-featured HRMS dashboard with admin, HR, employee roles, attendance, leave, and payroll.",
+    desc: "A complete Human Resource Management System with role-based navigation for Admin, HR, and Employee. Includes attendance management, leave requests, payroll simulation, and department tracking.",
+    features: [
+      "Admin, HR & Employee role-based dashboards",
+      "Attendance tracking system",
+      "Leave management & approvals",
+      "Payroll simulation module",
+      "Responsive design for all screen sizes",
+      "Clean UI with Tailwind CSS",
+    ],
+    tech: ["React", "Tailwind CSS", "Vite"],
+    images: [hrms1, hrms2, hrms3, hrms4, hrms5, hrms6, hrms7],
+    link: "https://human-resource-management-system-gold.vercel.app/login",
+    github: null,
+    year: 2025,
+    type: "Web App",
+    status: "Completed",
+    featured: true,
+    emoji: "📊",
+    accentColor: "#06b6d4",
+  },
+  {
+    slug: "portfolio",
+    title: "Personal Portfolio Website",
+    shortDesc: "Responsive portfolio showcasing projects, skills, and resume with clean modern UI.",
+    desc: "A personal portfolio website built with React and Tailwind CSS to showcase projects, skills, education, and contact information. Features smooth animations, responsive design, and modern card layouts.",
+    features: [
+      "Animated hero section",
+      "Project showcase with filters",
+      "Skills progress display",
+      "Education timeline",
+      "Contact form with EmailJS",
+      "Fully responsive layout",
+    ],
+    tech: ["React", "Tailwind CSS", "Vite"],
+    images: [portfolioImg],
+    link: "https://portfolio-beta-livid-zahsjif86i.vercel.app/",
+    github: null,
+    year: 2025,
+    type: "Portfolio",
+    status: "Completed",
+    featured: false,
+    emoji: "🚀",
+    accentColor: "#a78bfa",
+  },
+  {
+    slug: "feedback-form",
+    title: "Feedback Form Website",
+    shortDesc: "Modern feedback form with validation, clean UI, and real-time error handling.",
+    desc: "A feature-rich feedback form application with form validation using Formik and Yup, responsive design, and clean user experience.",
+    features: [
+      "Real-time form validation",
+      "Formik + Yup schema validation",
+      "Responsive feedback UI",
+      "Success/error state handling",
+      "Clean Bootstrap styling",
+    ],
+    tech: ["React", "Formik", "Yup", "Bootstrap"],
+    images: [group1, group2],
+    link: "https://feedback-form-iota-fawn.vercel.app/",
+    github: null,
+    year: 2025,
+    type: "Form / UI",
+    status: "Completed",
+    featured: false,
+    emoji: "📝",
+    accentColor: "#34d399",
+  },
+  {
+    slug: "todo",
+    title: "To Do List App",
+    shortDesc: "Clean productivity task manager with add, delete, and complete functionality.",
+    desc: "A productivity-focused To Do List application with task management features including add, delete, and mark complete. Built with React and clean UI.",
+    features: [
+      "Add, edit, and delete tasks",
+      "Mark tasks as complete",
+      "Local state management",
+      "Clean minimalist UI",
+      "Mobile responsive",
+    ],
+    tech: ["React", "Tailwind CSS"],
+    images: [todo1, todo2],
+    link: "https://to-do-list-nine-rosy-67.vercel.app/",
+    github: null,
+    year: 2024,
+    type: "Tool",
+    status: "Completed",
+    featured: false,
+    emoji: "✅",
+    accentColor: "#fbbf24",
+  },
+];
